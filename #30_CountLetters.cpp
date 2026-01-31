@@ -23,7 +23,7 @@ short CountLetter(string S1, char Letter)
     short Counter = 0;
     for (short i = 0; i < S1.length(); i++)
     {
-        if (S1[i] == Letter)
+        if (S1[i] == Letter) // Match Case
             Counter++;
     }
     return Counter;
