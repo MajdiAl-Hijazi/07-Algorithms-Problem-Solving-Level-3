@@ -188,7 +188,7 @@ void UpdateClientByAccountNumber(string AccountNumber, vector<sClient>& vClients
             cout << "\n\nClient Updated Successfully.\n";
         }
         else
-            cout << "\nProcces Canceled\n";
+            cout << "\nProcess Canceled\n";
     }
     else
         cout << "\nClient with Account Number (" << AccountNumber << ") is Not Found!\n";
